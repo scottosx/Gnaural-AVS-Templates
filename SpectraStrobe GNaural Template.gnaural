@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!-- See http://gnaural.sourceforge.net -->
+<schedule>
+<gnauralfile_version>1.20101006</gnauralfile_version>
+<gnaural_version>1.0.20110606</gnaural_version>
+<date>Thu Jan 08 08:23:57 2015
+</date>
+<title>SpectraStrobe Template</title>
+<schedule_description>Description: This schedule has the basic elements to create a SpectraStrobe track for the MindPlace Kasina</schedule_description>
+<author>Scott Hendrickson</author>
+<totaltime>600</totaltime>
+<voicecount>4</voicecount>
+<totalentrycount>4</totalentrycount>
+<loops>1</loops>
+<overallvolume_left>1</overallvolume_left>
+<overallvolume_right>1</overallvolume_right>
+<stereoswap>0</stereoswap>
+<graphview>1</graphview>
+<voice>
+<description>SS Red. Do not change base frequency. Max volume is 0.125.</description>
+<id>0</id>
+<type>3</type>
+<voice_state>1</voice_state>
+<voice_hide>0</voice_hide>
+<voice_mute>0</voice_mute>
+<voice_mono>0</voice_mono>
+<entrycount>1</entrycount>
+<entries>
+<entry parent="0" duration="600" volume_left="0.123667" volume_right="0.123667" beatfreq="10" basefreq="18700" state="0"/>
+</entries>
+</voice>
+<voice>
+<description>SS Green. Do not change base frequency. Max volume is 0.125.</description>
+<id>1</id>
+<type>3</type>
+<voice_state>0</voice_state>
+<voice_hide>1</voice_hide>
+<voice_mute>0</voice_mute>
+<voice_mono>0</voice_mono>
+<entrycount>1</entrycount>
+<entries>
+<entry parent="1" duration="600" volume_left="0.125" volume_right="0.125" beatfreq="10" basefreq="19200" state="0"/>
+</entries>
+</voice>
+<voice>
+<description>SS Blue. Do not change base frequency. Max volume is 0.125.</description>
+<id>2</id>
+<type>3</type>
+<voice_state>0</voice_state>
+<voice_hide>1</voice_hide>
+<voice_mute>0</voice_mute>
+<voice_mono>0</voice_mono>
+<entrycount>1</entrycount>
+<entries>
+<entry parent="2" duration="600" volume_left="0.125" volume_right="0.125" beatfreq="10" basefreq="19700" state="0"/>
+</entries>
+</voice>
+<voice>
+<description>SS Reference Track. Do not alter.</description>
+<id>3</id>
+<type>4</type>
+<voice_state>0</voice_state>
+<voice_hide>1</voice_hide>
+<voice_mute>0</voice_mute>
+<voice_mono>0</voice_mono>
+<entrycount>1</entrycount>
+<entries>
+<entry parent="3" duration="600" volume_left="0.01" volume_right="0.01" beatfreq="20" basefreq="18200" state="0"/>
+</entries>
+</voice>
+</schedule>
