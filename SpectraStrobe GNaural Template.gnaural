@@ -26,7 +26,7 @@
 <voice_mono>0</voice_mono>
 <entrycount>1</entrycount>
 <entries>
-<entry parent="0" duration="600" volume_left="0.123667" volume_right="0.123667" beatfreq="10" basefreq="18700" state="0"/>
+<entry parent="0" duration="600" volume_left="0.125" volume_right="0.125" beatfreq="10" basefreq="18700" state="0"/>
 </entries>
 </voice>
 <voice>
